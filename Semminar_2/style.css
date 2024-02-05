@@ -1,0 +1,73 @@
+body {
+    /*  */
+    font-family: sans-serif;
+}
+
+a {
+    /* отключили подчеркивание ссылки сверху */
+    text-decoration: none;
+}
+
+.menu-links {
+    /* Настроили формат и цвет ссылки сверху */
+    color: cornflowerblue;
+    /* Размер цвета */
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title {
+    /*Hex code цвета кодировка используется в CSS по умолчанию   */
+    color: #4901a8;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.text {
+    font-style: normal;
+    /* Курсив,нормальный текст */
+    font-weight: 300;
+    /* bold - 700, степень жирности букв  */
+    font-size: 18px;
+    /* Шрифт размер */
+    line-height: 20px;
+    /* Межстроковой отступ */
+    color: #7D7987
+}
+
+.mini-title {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.image {
+    border-radius: 55px;
+    /* Закругленные края у картинки */
+    width: 900px;
+    height: 500px;
+}
+
+.form .input {
+    /* Каскадность стилей в CSS с вложенными структурами */
+    width: 200px;
+    height: 30px;
+    outline: none;
+    /* Внешняя рамка пропадет */
+    border: 1px solid #ccc;
+    /*  */
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
