@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    /* Внешний отступ за границами элемента */
+    padding: 0;
+    /* Внутренний отступ между его содержимым и границей */
+}
+
+body {
+    background-color: #020A18;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    /* Шрифт текста */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #060c1a;
+
+}
+
+header .header_menu_container {
+    display: flex;
+    /* display: flex; — для блокового отображения в одну строку(линию); */
+    flex-direction: row;
+    /* Все ссылки по в линию */
+    align-items: center;
+    /* центровка по вертикали */
+    justify-content: center;
+    /* Сделать текст по середине */
+    height: 100%;
+}
+
+header .header_menu_container a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.content {
+    width: 1146px;
+    margin: 0 auto;
+    padding-top: 160px;
+
+}
+
+.content .rocket {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    /* Отступ  между элементами во flexe */
+    /* flex-wrap: wrap; */
+    /* Элементы перепрыгивают когда нету места */
+}
+
+.content .rocket .content_text h4 {
+    color: #3A68B8;
+    text-transform: uppercase;
+    /* Сделать текст заглавным */
+
+}
+
+.content .rocket .content_text h1 {
+    padding-top: 20px;
+    /* Отступ сверху */
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+.content .rocket .content_text p {
+    color: gray;
+    padding-top: 40px;
+
+}
+
+.content .rocket .content_text button {
+    padding: 15px 28px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background: #3A68B8;
+
+}
+
+.content .rocket .content_text button span {
+    font-size: 20px;
+    color: white;
+}
+
+.content .rocket .content_text button img {
+    width: 15px;
+    height: 15px;
+}
+
+.content .rocket .content_img img {
+    width: 414px;
+    height: 415px
+}
+
+.content .logo {
+    width: 100%;
+    height: 59px;
+    padding-top: 110px;
+    display: flex;
+    /* display: flex; — для блокового отображения в одну строку(линию); */
+    flex-direction: row;
+    /* Все ссылки по в линию */
+    align-items: center;
+    /* центровка по вертикали */
+
+}
+
+.logo img {
+    width: 300px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
